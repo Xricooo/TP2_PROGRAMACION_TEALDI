@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(127, 255, 212, 0.301);
+}
+h1,h2{
+    font-family: 'Catamaran', sans-serif;
+   
+}
+.contenedor {
+    width: 1140px;
+    margin: auto;
+    background-color: #73a4ff;
+    padding-left: 15px;
+    padding-right:15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.img-fluida{
+    /*css para que las tag img
+    se adapten a cuarquer contenedor
+    siempre y cuandos sean medias a grandes*/
+    max-width: 100%;
+    height: auto;
+}
+.redondo-circulo{
+    /*circulo como img*/
+    border-radius: 50%;
+}
+
+/*imagen que va a reemplazar a un texto el que sea,
+vamos a colocarla como fondo*/
+.brand{
+    display: block;/*display block cambia la identidad
+    de una tag que es inlineblock generica a una
+    de bloque. Aplicable a imagenes e hipervinculos
+    como ser botones CTA*/
+    width: 80px;
+    height: 80px;
+    /*shorthand. atajo*/
+    /*background-image: ;
+    background-repeat: ;
+    background-position: ;
+    background-attachment: ;*/
+    background: url(assets/img/pfp2.png) no-repeat 0 0 scroll;
+    font-size: 0;
+    background-size: 100%;
+    /*text-indent: -9999999px;*/
+    /*color: rgba(240, 248, 255, 0);    */
+    margin-top: 15px;
+    margin-left: 15px;
+}
+/*----los Flexbox---------*/
+.flexbox-1,
+.flexbox-2 {
+    /*propiedad compartida*/
+    display: flex;
+    justify-content: space-around;
+    background-color: #e3f6f5;
+}
+
+/*ahora va por separado*/
+.flexbox-1 {
+    /*cambio de sentido direccional*/
+    flex-direction: row-reverse;
+}
+.sub2{
+    padding-top: 10px;
+}
+.columna-izq{
+    width: 250px;
+}
+.columna-der{
+    width: 600px;
+    padding-bottom: 50px;
+}
+
+.barra{
+    width: 1140px;
+    margin: auto;
+    background-color: #bae8e8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.cta {
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    display: block;
+    border-radius: 6px;
+    background-color: rgb(198, 129, 51);
+    width: 150px;
+    height: 40px;
+  }
+  
+.tools{
+    padding-left: 5px;
+    display: inline-block;
+    width: 1110px;
+    vertical-align: top;
+    background-color: #e3f6f5;
+    border-radius: 8px;
+}
+
+.prog{
+    width: 300px;
+    height: 330px;
+    padding-left: 5px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    background-color: #bae8e8;
+    border-radius: 8px;
+}
+
+.prog2{
+    width:125px;
+    padding-left: 5px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding: 10px;
+    background-color: #bae8e8;
+    border-radius: 8px;
+}
+
+.imgur{
+    width: 220px;
+    height: 220px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+
+.gatsu{
+    display: block;/*display block cambia la identidad
+    de una tag que es inlineblock generica a una
+    de bloque. Aplicable a imagenes e hipervinculos
+    como ser botones CTA*/
+    width: 220px;
+    height: 220px;
+    /*shorthand. atajo*/
+    /*background-image: ;
+    background-repeat: ;
+    background-position: ;
+    background-attachment: ;*/
+    background: url(assets/img/gutso.PNG) no-repeat 0 0 scroll;
+    font-size: 0;
+    background-size: 100%;
+    /*text-indent: -9999999px;*/
+    /*color: rgba(240, 248, 255, 0);    */
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.footer{
+    color: rgb(255, 255, 255);
+}
+
+.animuwu{
+    background-color: #e3f6f5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-radius: 8px;
+}
